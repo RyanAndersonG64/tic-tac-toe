@@ -1,62 +1,65 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-image: linear-gradient(60deg, white, gray);
+}
+
 #gameName {
   max-width: fit-content;
-  position: relative;
-  top: 100px;
   font-size: 50px;
 }
 
 #gameText {
   max-width: fit-content;
-  position: relative;
-  top: 120px;
   font-size: 35px;
   color: red;
 }
 
-#player1 {
-  position: relative;
-  left: 393px;
-}
+/* #player1 {
+  float: left;
+} */
 
-#xWins {
-  position: relative;
-  left: 393px;
-  top: 15px;
-}
+/* #xWins {
+  float: left;
+  margin-left: 10px;
+} */
 
-#player2 {
-  position: relative;
-  left: 393px;
-  top: 50px;
-}
+/* #player2 {
+  float: left;
+  margin-top: 50px;
+} */
 
-#oWins {
-  position: relative;
-  left: 393px;
-  top: 120px;
-}
+/* #oWins {
+  float: left;
+  margin-top: 50px;
+  margin-left: 10px;
+} */
 
 #app {
-  position: relative;
-  max-width: fit-content;
-  top: 50px;
+  width: 70%;
+  height: 70%;
 }
 
 .space {
-  width: 150px;
-  height: 150px;
+  width: 20%;
+  height: 100%;
   display: inline-block;
   border: solid black;
-  margin-top: 0;
   text-align: center;
   font-size: 100px;
   line-height: 125px;
 }
 
 #reset {
-  position: relative;
-  top: 50px;
-  left: 115px;
   width: 200px;
   height: 50px;
 }
+
+.row {
+  height: 33.33%;
+  padding-left: 30%;
+}
+

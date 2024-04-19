@@ -10,14 +10,22 @@
     <!-- project styles -->
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
-    <div class = 'container mx-auto' id = 'gameName'>Tic Tac Toe</div>
-    <div class = 'container mx-auto' id = 'gameText'>X's turn</div>
-    <input type = 'text' value = "Enter X's name" id = 'player1'>
-    <div id = 'xWins'>Wins: </div>
-    <div id = 'oWins'>Wins: </div>
-    <input type = 'text' value = "Enter O's name" id = 'player2'>
-    <div class = 'container mx-auto' id = "app">
+  <body class = 'd-flex flex-column align-items-center'>
+    <div class = "h-30">
+      <div class = 'mx-auto' id = 'gameName'>Tic Tac Toe</div>
+      <div class = 'mx-auto' id = 'gameText'>X's turn</div>
+      <div class = 'd-flex'>
+        <div class = 'd-flex mx-5'>
+          <input type = 'text' value = "Enter X's name" id = 'player1'>
+          <div class="ms-2" id = 'xWins'>Wins: </div>
+        </div>
+        <div class = 'd-flex mx-5'>
+          <input type = 'text' value = "Enter O's name" id = 'player2'>
+          <div class="ms-2" id = 'oWins'>Wins: </div>
+        </div>
+      </div>
+    </div>
+    <div class = 'container mx-auto mt-2' id = "app">
       <div class = 'row'>
         <div class = 'space' id = 'space1'></div>
         <div class = 'space' id = 'space2'></div>
